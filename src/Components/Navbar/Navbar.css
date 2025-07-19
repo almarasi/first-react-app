@@ -1,0 +1,35 @@
+nav {
+  background-color: #2c3f51 !important;
+  padding-block: 1rem !important;
+
+  li {
+    a {
+      color: white !important;
+      text-transform: uppercase;
+      font-weight: bold !important;
+      border-radius: 10px !important;
+      width: fit-content;
+      padding: 8px !important;
+      margin-right: 1rem;
+      margin-block: .5rem !important;
+    }
+  }
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.active {
+  background-color: #19bc9c;
+  /* border: 1px solid red !important; */
+}
+
+@media screen and (max-width: 700px) {
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,43 @@
+.contact-header {
+  /* border: 1px solid red; */
+  h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  margin-bottom: 1rem;
+}
+
+input {
+  cursor: auto;
+  margin-bottom: 5px;
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+label {
+  transform: translateY(100%);
+  color: #1abc9c;
+  transition: all 0.5s ease;
+}
+
+.slideUp {
+  transform: translateY(0%);
+}
+
+@media screen and (max-width: 768px) {
+  .contact-header {
+    h2 {
+      font-size: 1.8rem;
+    }
+  }
+  form {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    width: 75% !important;
+  }
+}

@@ -1,0 +1,21 @@
+.about {
+  background-color: #19bc9c;
+}
+
+.about-header {
+  h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-header {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+  
+}
